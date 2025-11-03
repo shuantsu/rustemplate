@@ -1,15 +1,18 @@
-Rode o comando:
+Coloque o `rustools.bat` no seu path
 
-`cargo new [NOME-DO-SEU-APP]`
+daí rode o comando:
 
-após isso, rode o comando:
+`cargo build [NOME-DO-SEU-APP]`
+`cd [NOME-DO-SEU-APP]`
 
-`profile [NOME-DO-SEU-APP]`
+para buildar é só rodar
 
-e finalmente, para compilar:
+`rustools --build`
 
-`build [NOME-DO-SEU-APP]`
+**pronto, vc tem um executável extremamente otimizado**
 
-certifique-se que tem o programa `upx` no seu PATH.
+---------------------
 
-boas programações em RUST!
+requisitos:
+
+https://upx.github.io/
